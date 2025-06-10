@@ -33,8 +33,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
+      img: "/b5.svg",
+      spareImg: "grid.svg",
     },
     {
       id: 4,
@@ -72,35 +72,39 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "SoundBox",
+      des: "Welcome to the Soundbox! This platform is dedicated to music lovers, artists, and anyone who wants to explore and share their passion for music. Whether you’re here to discover new tracks, showcase your own music, or connect with fellow enthusiasts, you’ll find what you’re looking for. This app is a combination of YouTube and Spotify.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link1: "https://github.com/adrianhajdin?tab=repositories",
+      link2: ""
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "DeepSea",
+      des: "An android app with Kotlin, Jetpack Compose and Spring Boot Framework for help user learning language.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link1: "https://github.com/JunCodera1/DeepSea",
+      link2: ""
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "CodeHub",
+      des: "A tutorial, blog and find job IT Website building from SERN stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link1: "https://github.com/JunCodera1/codehub",
+      link2: "https://github.com/JunCodera1/codehub-backend"
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "GreenFootprint",
+      des: "Green Footprint is a web application that helps you calculate your personal carbon footprint based on your daily habits, and provides personalized recommendations to live more sustainably and reduce your environmental impact.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link1: "https://github.com/JunCodera1/green-footprint",
+      link2: "https://github.com/JunCodera1/green-footprint-backend"
     },
   ];
   
